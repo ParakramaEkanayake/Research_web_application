@@ -32,7 +32,7 @@ export default function App() {
           fontSize: "2rem",
         }}
       >
-        ⚙
+        
       </div>
       <h1 style={{ fontSize: "1.6rem", fontWeight: 700 }}>SLIIT CDAP Research Project</h1>
       <p style={{ opacity: 0.7 }}>Loading website…</p>
