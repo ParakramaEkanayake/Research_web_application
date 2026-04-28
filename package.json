@@ -1,6 +1,6 @@
 {
   "name": "react-vite-tailwind",
-  "homepage": "https://research-web-application.vercel.app/index.html",
+  "homepage": "https://parakramaekanayake.github.io/research_web_application/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,9 @@
     "prebuild": "chmod +x node_modules/.bin/vite",
     "build": "vite build",
     "dev": "vite",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "clsx": "2.1.1",
