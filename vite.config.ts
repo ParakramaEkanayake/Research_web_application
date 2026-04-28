@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(), viteSingleFile()],
-  base: process.env.VITE_BASE_URL || "/Research_web_application",
+  base: process.env.VITE_BASE_URL || "/research_web_application",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
